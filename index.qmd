@@ -1,0 +1,71 @@
+---
+title: "Statistics for Psychologists"
+page-layout: full
+anchor-sections: false
+image: "Images/icon.png"
+css: index.css
+filters: [remove_title.lua]
+sidebar: false
+back-to-top-navigation: false
+---
+
+![](Images/LUPsychology.svg){fig-alt="University Logo" fig-align="center"}
+
+::: callout-warning
+**This website is under construction.**
+:::
+
+```{r}
+#| echo: false
+
+#this will automate the current year content so it doesn't need manual changing each year
+date <- as.numeric(format(Sys.time(), "%Y"))
+```
+
+::: {.div style="font-size:2em;"}
+Welcome
+:::
+
+Welcome to Lancaster University's Department of Psychology **`r date-1`/`r date`** modules on Statistics for Psychologists. This is your one-stop shop for all the lab materials you need for working with R and statistics.
+
+```{=html}
+
+<div class="container">
+  <div class="row" style="display:flex;">
+    <div class="col">
+    <button type="button" class="btn btn-primary btn-landing">Year 1</button>
+    </div>
+    <div class="col ">
+      <button type="button" class="btn btn-primary btn-landing">Year 2</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-primary btn-landing">MSc</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-primary btn-landing">More</button>
+    </div>
+  </div>
+  <div class="col">
+<div align="center" role="toolbar" aria-label="Accordion">
+  <div class="accordion accordion-custom" id="Previouscontent">
+    <div class="accordion-item border-0">
+      <button class="accordion-button collapsed accordion-btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="border-radius: 30px;">
+        <div class="text-center">Previous Year's Content</div>
+      </button>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#Previouscontent">
+        <div class="accordion-body">
+          <div class="text-center" role="toolbar" aria-label="Buttons">
+            <button type="button" class="btn btn-primary btn-landing">22/23</button>
+            <button type="button" class="btn btn-primary btn-landing">21/22</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+```
+
+
+
+
