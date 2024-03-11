@@ -7,9 +7,9 @@
 }
 
 .btn-landing {
+  color: #fff;
   background-color: #b20f11;
   border-color: #b20f11;
-  font-size: 5vw;
   border-radius: 5vw;
   margin: 5px;
   width:100%
@@ -19,13 +19,3 @@
     color: #fff;
     background-color: #780b0c
 }
-
-
-.accordion-btn-custom {
-  background-color: #b20f11;
-  display:block;
-  font-size: 2.5vw;
-  color: #fff;
-  
-}
-
