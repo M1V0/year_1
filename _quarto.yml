@@ -19,8 +19,9 @@ website:
   navbar:
     #logo: "Images/icon.png"
     left:
-      #- text: Home
-      #  file: index.qmd
+      - text: Home
+        href: https://m1v0.github.io/Statistics_for_PSYC/
+        file: index.qmd
       - text: Year 1
         file: PSYC121/index.qmd
       - text: Year 2
@@ -29,10 +30,6 @@ website:
         file: PSYC121/index.qmd
       - text: And More...
         file: PSYC122/index.qmd
-      - text: Previous Content
-        menu:
-          - Test/CopyOfWeek7.qmd
-          - Test/Week7.qmd
 
   page-footer:
     left: "Website developed by Matthew Ivory"
